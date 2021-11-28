@@ -1,4 +1,4 @@
-package com.example.course.config;
+package course.config;
 
 import java.util.Arrays;
 
@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.example.course.entities.User;
-import com.example.course.repositories.UserRepository;
+import course.entities.User;
+import course.repositories.UserRepository;
 
 @Configuration
 @Profile("test")
